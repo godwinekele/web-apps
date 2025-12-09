@@ -93,15 +93,13 @@
 	
 	<distributionManagement>
     <snapshotRepository>
-		<id>Nexus</id>
-        <name>first-project</name>
-        <url>http://localhost:8081/repository/first-project/</url>
+        <id>first-project</id>
+        <url>http://172.17.0.3:8081/repository/first-project/</url>
     </snapshotRepository>
 
     <repository>
-		<id>Nexus</id>
-        <name>second-project</name>
-        <url>http://localhost:8081/repository/second-project/</url>
+        <id>second-project</id>
+        <url>http://172.17.0.3:8081/repository/second-project/</url>
     </repository>
 		
 </distributionManagement>
@@ -149,6 +147,7 @@
 	
 	
 </project>
+
 
 
 
