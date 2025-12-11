@@ -96,13 +96,13 @@
     <repository>
         <id>nexus</id>
 		<name>ACADA Learning Releases Nexus Repository</name>
-        <url>http://172.17.0.3:8081/repository/second-project/</url>
+        <url>http://172.17.0.4:8081/repository/second-project/</url>
     </repository>
 		
     <snapshotRepository>
         <id>nexus</id>
 		<name>ACADA Learning Snapshot Nexus Repository</name>
-        <url>http://172.17.0.3:8081/repository/first-project/</url>
+        <url>http://172.17.0.4:8081/repository/first-project/</url>
     </snapshotRepository>
 
 </distributionManagement>
@@ -150,6 +150,7 @@
 	
 	
 </project>
+
 
 
 
